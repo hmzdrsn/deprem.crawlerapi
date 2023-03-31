@@ -1,0 +1,13 @@
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\bin\Release\net7.0\deprem.Model.deps.json
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\bin\Release\net7.0\deprem.Model.dll
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\bin\Release\net7.0\deprem.Model.pdb
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\deprem.Model.csproj.AssemblyReference.cache
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\deprem.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\deprem.Model.AssemblyInfoInputs.cache
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\deprem.Model.AssemblyInfo.cs
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\deprem.Model.csproj.CoreCompileInputs.cache
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\deprem.Model.dll
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\refint\deprem.Model.dll
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\deprem.Model.pdb
+C:\Users\h-a-m\Desktop\git3\deprem.crawler-api\depre.crawler\deprem.Model\obj\Release\net7.0\ref\deprem.Model.dll

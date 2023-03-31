@@ -1,0 +1,77 @@
+﻿@model IEnumerable<deprem.Model.Models.Deprem>
+<br />
+
+<table class="table table-striped table-dark">
+    <thead >
+        <tr> 
+            <th>
+                Tarih
+            </th>
+            <th>
+                Saat
+            </th>
+            <th>
+                Enlem
+            </th>
+            <th>
+                Boylam
+            </th>
+            <th>
+                Derinlik
+            </th>
+            <th>
+                Md
+            </th>
+            <th>
+                Ml
+            </th>
+            <th>
+                Mw
+            </th>
+            <th>
+                Yer
+            </th>
+            <th>
+                Çözüm Niteliği
+            </th>
+            <!-- <th></th> -->
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.tarih)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.saat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.enlem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.boylam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.derinlik)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.md)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ml)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mw)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.yer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cozumNiteliği)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
