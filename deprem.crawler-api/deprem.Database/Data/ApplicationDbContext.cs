@@ -12,7 +12,7 @@ namespace deprem.Database.Data
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-228OGM4;Database= newModelTESTDB;User Id=sa;Password=123456;TrustServerCertificate=True"
+            optionsBuilder.UseSqlServer("Server=sw;Database= db;User Id=id;Password=psw;TrustServerCertificate=True"
                 ,opt=>opt.UseNetTopologySuite());//***
         }
 
