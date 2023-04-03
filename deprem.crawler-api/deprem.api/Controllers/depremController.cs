@@ -31,32 +31,36 @@ namespace deprem.api.Controllers
         [HttpGet]
         public ActionResult<Deprem> getLast()
         {
-
-            Deprem deprem = new Deprem();
-            deprem = context.Depremler.OrderByDescending(r => r.Id).FirstOrDefault();
-            return Ok(deprem); 
-        }
-
-        [HttpGet]
-        public ActionResult<Deprem> getAll()
-        {
-            var deprem = context.Depremler.ToList();
+            var deprem = context.Depremler
+        .OrderByDescending(r => r.Id)
+        .Select(x => new {
+            tarih =x.tarih.ToString("yyyy-MM-dd"),
+            x.saat,
+            x.enlem,
+            x.boylam,
+            x.derinlik,
+            x.yer,
+            x.cozumNiteliği
+        })
+        .FirstOrDefault();
             return Ok(deprem);
         }
 
-        [HttpGet]
-        public async Task<ActionResult> findBy(DateTime tarih, double boylam, double enlem)
+
+        [HttpGet("{tarih}/{enlem}/{boylam}")]
+        public async Task<ActionResult> findBy(DateTime tarih, double enlem, double boylam)
         {
-            double distance = 5;
+            double distance = 500;
             var geometryFactory = NtsGeometryServices.Instance.CreateGeometryFactory(srid: 4326);
             var location = geometryFactory.CreatePoint(new Coordinate(boylam, enlem));
             var result =  await context.Depremler
                 .Where(x => x.Location.Distance(location) < distance && x.tarih> tarih)
                 .Select(x => new
                 {
-                    x.tarih,
+                    tarih = x.tarih.ToString("yyyy-MM-dd"),
                     x.saat,
-                    konum = x.Location.ToString(),
+                    x.enlem,
+                    x.boylam,
                     x.derinlik,
                     x.yer,
                     x.cozumNiteliği,

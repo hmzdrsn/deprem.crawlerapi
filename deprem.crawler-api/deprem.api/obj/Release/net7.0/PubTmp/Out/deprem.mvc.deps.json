@@ -6,14 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "deprem.mvc/1.0.0": {
+      "deprem.Mvc/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.5",
           "deprem.Database": "1.0.0",
           "deprem.Model": "1.0.0"
         },
         "runtime": {
-          "deprem.mvc.dll": {}
+          "deprem.Mvc.dll": {}
         }
       },
       "Azure.Core/1.24.0": {
@@ -2282,7 +2282,7 @@
     }
   },
   "libraries": {
-    "deprem.mvc/1.0.0": {
+    "deprem.Mvc/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

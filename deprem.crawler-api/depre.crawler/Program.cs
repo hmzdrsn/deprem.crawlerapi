@@ -34,7 +34,7 @@ while (true)
         
         string veri = item.InnerText;
         deprem.tarih =DateTime.Parse(veri.Substring(586, 10).Trim());
-        deprem.saat = DateTime.Parse(veri.Substring(597, 8).Trim());
+        deprem.saat = TimeSpan.Parse(veri.Substring(597, 8).Trim());
         deprem.enlem =Double.Parse(veri.Substring(607, 8).Trim(),culture);
         deprem.boylam =Double.Parse(veri.Substring(617, 7).Trim(),culture);
         deprem.derinlik = Double.Parse(veri.Substring(631, 4).Trim(), culture);

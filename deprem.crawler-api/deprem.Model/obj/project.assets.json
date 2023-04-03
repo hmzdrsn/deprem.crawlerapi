@@ -3281,11 +3281,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\h-a-m\\Desktop\\Yeni klasör (3)\\deprem.crawler-api\\deprem.Model\\deprem.Model.csproj",
+      "projectUniqueName": "C:\\Users\\h-a-m\\Documents\\GitHub\\deprem.crawlerapi\\deprem.crawler-api\\deprem.Model\\deprem.Model.csproj",
       "projectName": "deprem.Model",
-      "projectPath": "C:\\Users\\h-a-m\\Desktop\\Yeni klasör (3)\\deprem.crawler-api\\deprem.Model\\deprem.Model.csproj",
+      "projectPath": "C:\\Users\\h-a-m\\Documents\\GitHub\\deprem.crawlerapi\\deprem.crawler-api\\deprem.Model\\deprem.Model.csproj",
       "packagesPath": "C:\\Users\\h-a-m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\h-a-m\\Desktop\\Yeni klasör (3)\\deprem.crawler-api\\deprem.Model\\obj\\",
+      "outputPath": "C:\\Users\\h-a-m\\Documents\\GitHub\\deprem.crawlerapi\\deprem.crawler-api\\deprem.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -10,9 +10,9 @@ namespace deprem.Model.Models
     public class Deprem
     {
         public int Id { get; set; }
-        public DateTime? tarih { get; set; }
+        public DateTime tarih { get; set; }
 
-        public DateTime saat { get; set; }
+        public TimeSpan saat { get; set; }
 
         public double enlem { get; set; }
         public double boylam  { get; set; }

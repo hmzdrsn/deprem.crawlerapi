@@ -56,10 +56,10 @@ namespace deprem.Database.Migrations
                     b.Property<double>("mw")
                         .HasColumnType("float");
 
-                    b.Property<DateTime>("saat")
-                        .HasColumnType("datetime2");
+                    b.Property<TimeSpan>("saat")
+                        .HasColumnType("time");
 
-                    b.Property<DateTime?>("tarih")
+                    b.Property<DateTime>("tarih")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("yer")

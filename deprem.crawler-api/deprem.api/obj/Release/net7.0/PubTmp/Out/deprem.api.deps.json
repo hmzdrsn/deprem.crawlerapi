@@ -2440,7 +2440,7 @@
           "deprem.Model": "1.0.0"
         },
         "runtime": {
-          "deprem.mvc.dll": {}
+          "deprem.Mvc.dll": {}
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oefpx0VAEH7MAB8DAVHCY4Zu51jVQ6S92+2w5Fh3sUggqFZ2maW2NdBLOFGHgEYqoLYv/q2cmNYnCFQPQswCSw==",
+  "dgSpecHash": "6Kfud4lomrLQtKA6vCGke0S37Hp9UZWIA4F/uhB8jI04OZG2PXuM0hoJ72Tb9zXugSvATZNioQeiE1+1pCbG2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\h-a-m\\Desktop\\Yeni klasör (3)\\deprem.crawler-api\\deprem.Database\\deprem.Database.csproj",
+  "projectFilePath": "C:\\Users\\h-a-m\\Documents\\GitHub\\deprem.crawlerapi\\deprem.crawler-api\\deprem.Database\\deprem.Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\h-a-m\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\h-a-m\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
