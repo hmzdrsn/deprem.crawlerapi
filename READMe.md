@@ -1,11 +1,8 @@
 
 # API Kullanımı
 
-## Bütün Depremleri Getir
-
-```http
-  GET /api/deprem/getAll
-```
+Api Doc:
+https://app.swaggerhub.com/apis/HMZDRSN64/APIDEPREM/1.0
 
 ## Son Depremi Getir
 
